@@ -1,6 +1,8 @@
+
 const int MOD = 1e9+7;
 const int p = 31; 
 
+// finds all occurences of string s on string t in O(|S| + |T|)
 vector<int> rabin_karp(string const& s, string const& t) {
 
   int S = s.size(), T = t.size();
