@@ -17,7 +17,7 @@ struct line{
 
 template<typename T>
 T cross_prod(complex<T> p1, complex<T> p2){
-    return (conj(p1)*p2).Y;
+    return p1.X*p2.Y - p2.X*p1.Y;
 }
 
 template<typename T>
