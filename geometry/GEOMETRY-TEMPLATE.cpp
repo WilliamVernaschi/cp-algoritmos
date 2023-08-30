@@ -150,7 +150,6 @@ int circle_line_intersect(complex<ld> center, ld radius, line<ld> l, vector<comp
   by = y0 + l.A * mult;
   ans.push_back(complex<ld>(ay+center.X, by+center.Y));
   return 2;
-
 }
 
 

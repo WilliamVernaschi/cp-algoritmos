@@ -47,7 +47,7 @@ struct segtree{
     }
 
     for(int i = n-1; i > 0; i--)
-      seg[i] = seg[2*i] + seg[2*i+1];
+      seg[i] = seg[i<<1] + seg[i<<1|1];
   }
 };
 

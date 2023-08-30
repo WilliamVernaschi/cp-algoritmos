@@ -58,6 +58,8 @@ ll MST(){
 
   ll total=0;
 
+  DSU dsu;
+  dsu.make(n);
   //vector<vector<pair<int, ll>>> mst(n);
 
   for(int i = 0; i < m; i++){
