@@ -18,7 +18,7 @@ bool bfs(int n) {
 	}
 
   bool exist = false;
-	while(!q.empty()) {
+  while(!q.empty()) {
 		int u = q.front(); q.pop();
 
 		for(int v : adj[u]) {
@@ -92,3 +92,4 @@ int main() {
     std::cout << x << ' ' << y << '\n';
   }
 }
+
